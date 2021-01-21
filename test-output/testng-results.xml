@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="73589" started-at="2021-01-20T17:04:25 WAT" finished-at="2021-01-20T17:05:38 WAT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="73589" started-at="2021-01-20T17:04:25 WAT" finished-at="2021-01-20T17:05:38 WAT">
+      <class name="com.fbistech.testcases.SponsorTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="setUp" is-config="true" duration-ms="10700" started-at="2021-01-20T17:04:25 WAT" finished-at="2021-01-20T17:04:35 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserCanClickSponsorLink()[pri:1, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="verifyUserCanClickSponsorLink" duration-ms="210" started-at="2021-01-20T17:04:35 WAT" finished-at="2021-01-20T17:04:36 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanClickSponsorLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="tearDown" is-config="true" duration-ms="3160" started-at="2021-01-20T17:04:36 WAT" finished-at="2021-01-20T17:04:39 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="setUp" is-config="true" duration-ms="10128" started-at="2021-01-20T17:04:39 WAT" finished-at="2021-01-20T17:04:49 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserCanClickOnSporsorFormBtn()[pri:2, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="verifyUserCanClickOnSporsorFormBtn" duration-ms="3329" started-at="2021-01-20T17:04:49 WAT" finished-at="2021-01-20T17:04:52 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanClickOnSporsorFormBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="tearDown" is-config="true" duration-ms="3127" started-at="2021-01-20T17:04:52 WAT" finished-at="2021-01-20T17:04:55 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="setUp" is-config="true" duration-ms="7147" started-at="2021-01-20T17:04:55 WAT" finished-at="2021-01-20T17:05:03 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserCanFillSponsorForm()[pri:3, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="verifyUserCanFillSponsorForm" duration-ms="5023" started-at="2021-01-20T17:05:03 WAT" finished-at="2021-01-20T17:05:08 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanFillSponsorForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="tearDown" is-config="true" duration-ms="3202" started-at="2021-01-20T17:05:08 WAT" finished-at="2021-01-20T17:05:11 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="setUp" is-config="true" duration-ms="9300" started-at="2021-01-20T17:05:11 WAT" finished-at="2021-01-20T17:05:20 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCountryDropdownValue()[pri:4, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="verifyCountryDropdownValue" duration-ms="1243" started-at="2021-01-20T17:05:20 WAT" finished-at="2021-01-20T17:05:21 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountryDropdownValue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="tearDown" is-config="true" duration-ms="3215" started-at="2021-01-20T17:05:21 WAT" finished-at="2021-01-20T17:05:25 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="setUp" is-config="true" duration-ms="9335" started-at="2021-01-20T17:05:25 WAT" finished-at="2021-01-20T17:05:34 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCityDropdownValue()[pri:5, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="verifyCityDropdownValue" duration-ms="1162" started-at="2021-01-20T17:05:34 WAT" finished-at="2021-01-20T17:05:35 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityDropdownValue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.fbistech.testcases.SponsorTest@76b0bfab]" name="tearDown" is-config="true" duration-ms="3202" started-at="2021-01-20T17:05:35 WAT" finished-at="2021-01-20T17:05:38 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fbistech.testcases.SponsorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
