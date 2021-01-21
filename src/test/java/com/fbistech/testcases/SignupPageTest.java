@@ -11,14 +11,14 @@ import com.fbistech.pages.SignUpPage;
 
 import junit.framework.Assert;
 
-public class SignupTest extends TestBase {
+public class SignupPageTest extends TestBase {
 	HomePage homePage;
 	SignUpPage signupPage;
 	LoginPage loginPage;
 
 	
 	// this will initialize the properties of base class constructor there after call initialization() method
-	public SignupTest()
+	public SignupPageTest()
 	{
 		super();
 	}

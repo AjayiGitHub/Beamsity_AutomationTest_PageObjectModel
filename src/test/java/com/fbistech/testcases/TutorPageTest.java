@@ -8,14 +8,16 @@ import com.fbistech.base.TestBase;
 import com.fbistech.pages.HomePage;
 import com.fbistech.pages.School_OrganizationPage;
 import com.fbistech.pages.SponsorsPage;
+import com.fbistech.pages.TutorPage;
 
-public class School_OrganizationTest extends TestBase
-{
+public class TutorPageTest extends TestBase {
+	
+	
 	HomePage homePage;
 	SponsorsPage sponsorsPage;
-	School_OrganizationPage school_OrganizationPage;
+	TutorPage tutorPage;
 	
-	public School_OrganizationTest()
+	public TutorPageTest()
 	{
 		super();
 	}
@@ -28,10 +30,9 @@ public class School_OrganizationTest extends TestBase
 		
 		homePage = new HomePage();
 		sponsorsPage = new SponsorsPage();
-		school_OrganizationPage = new School_OrganizationPage();
+		tutorPage = new TutorPage();
 		
 	}
-	
 	
 	
 	@Test(priority = 1) 
@@ -39,30 +40,20 @@ public class School_OrganizationTest extends TestBase
 	{
 		sponsorsPage = homePage.clickOnSponsorsLink();
 	}
-	
+
 	
 	@Test(priority = 2) 
-	public void verifyUserCanClickOnSchoolFormBtn() throws Exception
+	public void verifyUserCanFillTutorForm() throws Exception
 	{
 		sponsorsPage = homePage.clickOnSponsorsLink();
-		Thread.sleep(3000);
-		school_OrganizationPage = school_OrganizationPage.clickOnSponsor_OrganizationForm();	
-	}
-	
-	
-	@Test(priority = 3) 
-	public void verifyUserCanFillSponsorForm() throws Exception
-	{
-		sponsorsPage = homePage.clickOnSponsorsLink();
-		Thread.sleep(3000);
-		school_OrganizationPage = school_OrganizationPage.clickOnSponsor_OrganizationForm();
-		homePage = school_OrganizationPage.createNewSchool(prop.getProperty("school_OrganizationName"),prop.getProperty("firstName"), 
-				prop.getProperty("lastName"), prop.getProperty("emailAddress"), prop.getProperty("phoneNo"));
-	}
-	
-	
-	
 
+		Thread.sleep(3000);
+		
+		homePage = tutorPage.createNewTutor(prop.getProperty("firstName"), prop.getProperty("lastName"), 
+				prop.getProperty("emailAddress"), prop.getProperty("phoneNo"), prop.getProperty("uploadCourseFile"));
+		
+	}
+	
 	
 	
 	
@@ -74,4 +65,5 @@ public class School_OrganizationTest extends TestBase
 		Thread.sleep(3000);
 		driver.quit(); 
 	}
+	
 }
